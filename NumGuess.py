@@ -6,7 +6,7 @@ def clear():
     os.system("clear")
     print()
 
-x = random.randint(1, 10)
+x = random.randint(1, 9)
 
 clear()
 time.sleep(1)
