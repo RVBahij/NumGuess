@@ -15,7 +15,7 @@ print("Number range 1 > 9\n")
 print("You have 4 guess :)\n")
 
 
-time.sleep(6)
+time.sleep(3)
 
 
 for i in range(1, 5):
@@ -26,7 +26,7 @@ for i in range(1, 5):
         break
     elif y != x:
         print("\nWrong guess...\n\n")
-        time.sleep(2)
+        time.sleep(1)
 
 if x != y:
     clear()
